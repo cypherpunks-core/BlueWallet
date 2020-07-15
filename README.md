@@ -15,7 +15,7 @@ Built with React Native and Electrum.
 Website: [bluewallet.io](http://bluewallet.io)
 
 Community: [telegram group](https://t.me/bluewallet)
-
+ 
 * Private keys never leave your device
 * Lightning Network supported
 * SegWit-first. Replace-By-Fee support
