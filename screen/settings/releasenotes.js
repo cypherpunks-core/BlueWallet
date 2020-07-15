@@ -11,7 +11,6 @@ const styles = StyleSheet.create({
 
 const ReleaseNotes = () => {
   const [isLoading, setIsLoading] = useState(true);
-  const notes = require('../../release-notes');
 
   useEffect(() => {
     setIsLoading(false);
@@ -23,7 +22,7 @@ const ReleaseNotes = () => {
     <SafeBlueArea forceInset={{ horizontal: 'always' }} style={styles.root}>
       <ScrollView>
         <BlueCard>
-          <BlueText>{notes}</BlueText>
+          <BlueText></BlueText>
         </BlueCard>
       </ScrollView>
     </SafeBlueArea>
